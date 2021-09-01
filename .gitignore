@@ -1,0 +1,9 @@
+SAFRAN/build/
+SAFRAN/boost_1_76_0/
+AnyBURL-RE/build/
+AnyBURL-RE/AnyBURL-RE.jar
+dataset/
+_dict_of_heads.pkl
+_dict_of_tails.pkl
+obl-1000
+pred_OBL2021.npz
