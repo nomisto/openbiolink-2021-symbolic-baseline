@@ -2,7 +2,7 @@ import torch
 from openbiolink.obl2021 import OBL2021Evaluator, OBL2021Dataset
 
 def main():
-    evaluation_file_path = r"./dataset/prediction"
+    evaluation_file_path = argv[1]
 
     dl = OBL2021Dataset()
     ev = OBL2021Evaluator()

@@ -32,11 +32,14 @@ python3 train.py
 
 # Evaluation
 
-Run from project root:
+For maximum (default AnyBURL) aggregation approach run:
 
 ```bash
-python3 save_test_submission.py
+python3 save_test_submission.py ./dataset/prediction_max
 ```
 
+For Non-redundant Noisy-OR (SAFRAN) aggregation approach run:
 
-
+```bash
+python3 save_test_submission.py ./dataset/prediction_nrno
+```
